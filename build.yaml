@@ -2,7 +2,7 @@ name: "TheTVDB"
 guid: "a677c0da-fac5-4cde-941a-7134223f14c8"
 imageUrl: "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-tvdb.png"
 version: "9"
-targetAbi: "10.8.0.0"
+targetAbi: "10.7.7.0"
 framework: "net6.0"
 owner: "jellyfin"
 overview: "Get TV metadata from TheTvdb"
@@ -15,8 +15,7 @@ artifacts:
   - "TvDbSharper.dll"
 changelog: |2-
   ### Code or Repo Maintenance ###
-  - Use BaseItemKind (#59) @crobibero
-  - update ruleset (#55) @crobibero
+  - Use meta ci (#67) @crobibero
 
-  ### Dependency updates ###
-  - chore(deps): bump Microsoft.Extensions.Http from 5.0.0 to 6.0.0 (#54) @dependabot
+  ### CI & build changes ###
+  - Use meta ci (#67) @crobibero
